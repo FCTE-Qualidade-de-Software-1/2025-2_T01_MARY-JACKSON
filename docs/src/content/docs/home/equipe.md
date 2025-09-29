@@ -4,7 +4,9 @@ description: Equipe responsável pela análise de qualidade do software Pontua.
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="/images/V3_C3.png" alt="Logo do Software Pontua" style="max-width: 120px; height: auto;" />
+  <img src="/docs/public/images/V3_C3.png" 
+       alt="Logo do Software Pontua" 
+       style="width: 80px; height: auto; display: inline-block;" />
 </div>
 
 ## Integrantes do grupo
@@ -39,7 +41,7 @@ description: Equipe responsável pela análise de qualidade do software Pontua.
 
   <!-- Letícia Assunção Aires Moreira -->
   <div style="text-align: center; background: transparent; padding: 20px; border-radius: 10px;">
-    <img src="docs/src/assets/leticia.jpeg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
+    <img src="/docs/public/images/team/leticia.jpeg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
     <h3>Letícia Assunção Aires Moreira</h3>
     <h7>190128712</h7>
     

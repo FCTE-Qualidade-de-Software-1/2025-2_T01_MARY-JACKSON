@@ -4,7 +4,7 @@ description: Relatório Fase 1 - Estabelecimento dos requisitos de avaliação d
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="../../assets/V3_C3.png" alt="Logo do Software Pontua" style="max-width: 150px; height: auto;" />
+  <img src="/images/V3_C3.png" alt="Logo do Software Pontua" style="max-width: 150px; height: auto;" />
 </div>
 
 # 📊 Análise de Qualidade do Software Pontua

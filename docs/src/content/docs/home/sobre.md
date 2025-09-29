@@ -4,7 +4,7 @@ description: Projeto de análise de qualidade do software Pontua, implementando 
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="../../../assets/V3_C3.png" alt="Logo do Software Pontua" style="max-width: 200px; height: auto;" />
+  <img src="/images/V3_C3.png" alt="Logo do Software Pontua" style="max-width: 200px; height: auto;" />
 </div>
 
 ## 🎯 Visão Geral

@@ -1,33 +1,29 @@
 ---
-title: Sobre o Projeto QSW - Mary Jackson
-description: Projeto de análise de qualidade do software Pontua, implementando metodologia PBL para educação médica.
+Título: Sobre o Projeto QSW - Mary Jackson
+Descrição: Projeto de análise de qualidade do software Pontua, implementando Metodologia PBL para educação médica.
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="/images/V3_C3.png" alt="Logo do Software Pontua" style="max-width: 200px; height: auto;" />
+  <img src="/docs/public/images/V3_C3.png" 
+       alt="Logo do Software Pontua" 
+       style="width: 80px; height: auto; display: inline-block;" />
 </div>
 
-## 🎯 Visão Geral
 
-**QSW - Mary Jackson** é um projeto acadêmico de **Qualidade de Software** que realiza uma análise abrangente do software **Pontua**, uma plataforma educacional desenvolvida pela **Crianex** que implementa a metodologia **PBL (Problem-Based Learning)** para cursos de Medicina e áreas afins.
 
-## 📚 Objetivos
+## Visão Geral
 
-- **Avaliar a qualidade** do software Pontua segundo padrões internacionais (ISO/IEC 25010:2011)
-- **Identificar oportunidades** de melhoria no produto
-- **Fornecer subsídios** para decisões de adoção institucional
-- **Desenvolver competências** em análise e avaliação de software
+QSW – Mary Jackson é um projeto acadêmico de Qualidade de Software que realiza uma análise do software Pontua, uma plataforma educacional desenvolvida pela Crianex que adota a metodologia PBL (Problem-Based Learning) voltada para cursos de Medicina e áreas afins. O sistema é utilizado no curso de Medicina da UniRV, servindo como apoio ao processo de ensino-aprendizagem por meio da aprendizagem baseada em problemas.
 
-## 🏫 Contexto Educacional
+## Objetivos
 
-O projeto é desenvolvido no contexto da disciplina de **Qualidade de Software** da Universidade de Brasília (UnB), como parte da avaliação da qualidade do software **Pontua** utilizado no curso de Medicina da **Universidade UniRV**.
+Avaliar a qualidade do software Pontua com base nas características de Adequação Funcional e Portabilidade definidas pelo padrão internacional ISO/IEC 25010:2011, visando identificar oportunidades de melhoria para os desenvolvedores e apoiar decisões sobre a adoção institucional.
 
-## 👨‍🏫 Orientação
+## Documentação
 
-- **Docente:** Cristiane Soares Ramos
-- **Código:** FGA0315
+A documentação completa do projeto está disponível no [repositório da disciplina](https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARY-JACKSON/tree/main)
 
-## 📋 Metodologia
+## Metodologia
 
 A avaliação segue a estrutura definida pela **ISO/IEC 25040:2009**, dividida em 5 fases:
 
@@ -37,25 +33,14 @@ A avaliação segue a estrutura definida pela **ISO/IEC 25040:2009**, dividida e
 4. **Fase 4:** Execução da avaliação
 5. **Fase 5:** Conclusão e recomendações
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **Framework:** Astro Starlight (Documentação)
 - **Versionamento:** Git e GitHub
 - **Padrões:** ISO/IEC 25010:2011 e ISO/IEC 25040:2009
 - **Ferramentas:** ChatGPT (apoio à documentação)
 
-## 🎯 Escopo da Avaliação
-
-### Características Avaliadas:
-- **Adequação Funcional** (Completude Funcional)
-- **Portabilidade** (Substituibilidade)
-
-### Fora de Escopo:
-- Performance em larga escala
-- Internacionalização
-- Funcionalidades em desenvolvimento
-
-## 📊 Resultados Esperados
+## Resultados Esperados
 
 - **Relatório técnico** detalhado da avaliação
 - **Recomendações** para melhorias no software
@@ -75,4 +60,4 @@ A avaliação segue a estrutura definida pela **ISO/IEC 25040:2009**, dividida e
 
 ---
 
-*Projeto desenvolvido como parte da disciplina de Qualidade de Software (MDS01) da Universidade de Brasília.*
+*Projeto desenvolvido como parte da disciplina de Qualidade de Software da Universidade de Brasília.*

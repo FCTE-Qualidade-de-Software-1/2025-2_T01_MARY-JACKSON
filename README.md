@@ -2,7 +2,7 @@
 
 Repositório do projeto **QSW - Mary Jackson**, referente à disciplina **Qualidade de Software (FGA315 - 2025/2)**.  
 
-Este projeto contém a análise de qualidade do software **Pontua**, desenvolvido pela **Crianex**, utilizando como referência as normas **ISO/IEC 25040:2011** (processo de avaliação) e **ISO/IEC 25010:2011** (modelo de qualidade).  
+Este projeto contém a análise de qualidade do software **Pontua**, desenvolvido pela **Crianex**, utilizando como referência as normas **ISO/IEC 25040:2009** (processo de avaliação) e **ISO/IEC 25010:2011** (modelo de qualidade).  
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Fase 1 - Estabelecimento dos Requisitos de Avaliação
-description: Relatório Fase 1 - Estabelecimento dos requisitos de avaliação do software Pontua segundo ISO/IEC 25040:2011 e ISO/IEC 25010:2011
+description: Relatório Fase 1 - Estabelecimento dos requisitos de avaliação do software Pontua segundo ISO/IEC 25040:2009 e ISO/IEC 25010:2011
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
@@ -54,7 +54,7 @@ O Pontua é um **software como serviço (SaaS)**, acessível via navegador e res
 ---
 
 ## 4. Modelo de Qualidade
-A avaliação foi guiada pela **ISO/IEC 25010:2011**, utilizada em conjunto com a **ISO/IEC 25040:2011** para estruturar o processo avaliativo.  
+A avaliação foi guiada pela **ISO/IEC 25010:2011**, utilizada em conjunto com a **ISO/IEC 25040:2009** para estruturar o processo avaliativo.  
 
 ### Características Selecionadas
 - **Adequação Funcional (Functional Suitability)**  
@@ -165,7 +165,7 @@ O Pontua se conecta com diferentes **Objetivos de Desenvolvimento Sustentável (
 ---
 
 ## 8. Organização do Relatório e Documentação
-O relatório seguirá a sequência definida pela **ISO/IEC 25040:2011**:  
+O relatório seguirá a sequência definida pela **ISO/IEC 25040:2009**:  
 1. **Fase 1:** Estabelecimento dos requisitos de avaliação (documento atual).  
 2. **Fase 2:** Especificação da avaliação (métricas e critérios).  
 3. **Fase 3:** Projeto da avaliação (plano e cronograma).  
@@ -184,7 +184,7 @@ O desenvolvimento deste relatório contou com o apoio de múltiplas ferramentas 
 **🤖 ChatGPT (OpenAI)**
 - Estruturação inicial de critérios e seções do relatório
 - Melhoria da clareza textual e fluidez da linguagem
-- Auxílio na adequação aos requisitos das normas ISO/IEC 25040:2011 e ISO/IEC 25010:2011
+- Auxílio na adequação aos requisitos das normas ISO/IEC 25040:2009 e ISO/IEC 25010:2011
 - Geração de conteúdo técnico preliminar
 
 **🖱️ Cursor (AI IDE Assistant)**

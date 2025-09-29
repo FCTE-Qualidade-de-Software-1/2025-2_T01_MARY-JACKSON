@@ -13,12 +13,19 @@ Acesse a versão publicada da documentação em:
 ---
 
 ## 📑 Estrutura do Projeto
-- `fase1/` → Relatório Fase 1 (Estabelecimento dos requisitos de avaliação)  
-- `fase2/` → Relatório Fase 2 (Especificação da avaliação)  
-- `fase3/` → Relatório Fase 3 (Projeto da avaliação)  
-- `fase4/` → Relatório Fase 4 (Execução da avaliação)  
-- `fase5/` → Relatório Fase 5 (Conclusão da avaliação)  
-- `assets/` → Diagramas, figuras e materiais de apoio  
+- `docs/` → Site de documentação (Astro + Starlight)
+  - `src/content/docs/` → Conteúdo da documentação
+    - `home/` → Páginas sobre o projeto e equipe
+      - `sobre.md` → Sobre o projeto QSW - Mary Jackson
+      - `equipe.md` → Informações da equipe
+    - `fases/` → Relatórios das fases do projeto
+      - `fase-1.md` → Fase 1 - Estabelecimento dos requisitos de avaliação
+      - `fase-2.md` → Fase 2 - Especificação da avaliação *(próximas fases)*
+      - `fase-3.md` → Fase 3 - Projeto da avaliação *(próximas fases)*
+      - `fase-4.md` → Fase 4 - Execução da avaliação *(próximas fases)*
+      - `fase-5.md` → Fase 5 - Conclusão da avaliação *(próximas fases)*
+  - `src/assets/` → Diagramas, figuras e materiais de apoio
+- `README.md` → Este arquivo  
 
 ---
 

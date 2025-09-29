@@ -6,8 +6,8 @@ import starlightThemeRapidePlugin from "starlight-theme-rapide";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://mdsreq-fga-unb.github.io",
-	base: "/QSW-mary-jackson",
+	site: "https://fcte-qualidade-de-software-1.github.io",
+	base: "/2025-2_T01_MARY-JACKSON/",
 	integrations: [
 		starlight({
 			plugins: [starlightThemeRapidePlugin()],
@@ -16,7 +16,7 @@ export default defineConfig({
 				{
 					icon: "github",
 					label: "GitHub",
-					href: "https://github.com/mdsreq-fga-unb/QSW-mary-jackson",
+					href: "https://github.com/fcte-qualidade-de-software-1/2025-2_T01_MARY-JACKSON",
 				},
 			],
 			sidebar: [

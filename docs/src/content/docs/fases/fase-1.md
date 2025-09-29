@@ -37,7 +37,6 @@ O uso pretendido dos resultados é:
   - **Instituições de Ensino:** Pretendem reduzir custos administrativos, padronizar processos avaliativos e garantir conformidade legal (LGPD).  
 
 ---
-
 ## 3. Tipo de Produto e Descrição Estruturada
 O Pontua é um **software como serviço (SaaS)**, acessível via navegador e responsivo em dispositivos móveis. Sua proposta é centralizar avaliações acadêmicas e simplificar a adoção da metodologia **PBL** em contextos universitários.  
 
@@ -46,6 +45,11 @@ O Pontua é um **software como serviço (SaaS)**, acessível via navegador e res
 - **Interfaces Principais:** Área do aluno, área do professor, dashboards administrativos.  
 - **Dependências Externas:** Autenticação via provedores (Google), banco de dados em nuvem, conformidade LGPD.  
 - **Serviços Oferecidos:** Gestão de turmas, avaliações entre pares, relatórios de desempenho, indicadores de presença e feedback contínuo.  
+
+### Tecnologias Utilizadas
+- **Frontend:** Desenvolvido em **Svelte**, priorizando performance e experiência do usuário.  
+- **Backend:** Implementado em **Node.js** com **Typescript** e **Express.js**, garantindo escalabilidade e robustez na lógica de negócio.  
+- **Banco de Dados:** Utilização do **Supabase** como solução de banco de dados relacional e autenticação integrada, oferecendo flexibilidade e segurança no armazenamento de dados.  
 
 ---
 

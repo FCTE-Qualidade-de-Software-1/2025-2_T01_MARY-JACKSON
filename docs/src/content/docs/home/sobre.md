@@ -1,6 +1,6 @@
 ---
-Título: Sobre o Projeto QSW - Mary Jackson
-Descrição: Projeto de análise de qualidade do software Pontua, implementando Metodologia PBL para educação médica.
+title: Sobre o Projeto QSW - Mary Jackson
+description: Projeto de análise de qualidade do software Pontua, implementando Metodologia PBL para educação médica.
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">

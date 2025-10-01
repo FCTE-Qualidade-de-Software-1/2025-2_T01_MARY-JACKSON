@@ -1,6 +1,13 @@
+
+---
+title: Fase 1
+description: Estabelece os requisitos da avaliação
+---
+
+
 <div style="text-align: center; margin-bottom: 2rem;"> <img src="/docs/public/images/V3_C3.png" alt="Logo do Software Pontua" style="width: 80px; height: auto; display: inline-block;" /> </div>
 
-# Análise de Qualidade do Software Pont
+# Análise de Qualidade do Software Pontua
 ## 1. Propósito da Avaliação 
 ### 1.1 Contexto e Motivação
 
@@ -95,14 +102,14 @@ O Pontua é um **software como serviço (SaaS)**, acessível via navegador e res
 
 ### 2.3 Produto Principal Especificado
 
-| Campo          | Descrição |
-|----------------|-----------|
-| Nome           |      Pontua     |
-| Tipo           |           |
-| Frontend       |           |
-| Backend        |           |
-| Banco de Dados |           |
-| Plataforma     |           |
+| Campo          | Descrição             |
+| -------------- | --------------------- |
+| Nome           | Pontua                |
+| Tipo           | Site                  |
+| Frontend       | Svelte                |
+| Backend        | Node.js + Express     |
+| Banco de Dados | Supabase (PostgreSQL) |
+| Plataforma     | Web / Mobile          |
 
 ### 2.4 Módulos e Componentes a Avaliar
 
@@ -194,16 +201,16 @@ avalia a capacidade da plataforma de ser instalada, executada e integrada em dif
 
 A priorização das características de qualidade do Pontua foi realizada utilizando a técnica MosCoW. A avaliação se concentra nas características de portabilidade e adequação funcional, consideradas essenciais para o propósito do software. As demais características do modelo ISO/IEC 25010 foram analisadas, mas receberam menor prioridade, pois não impactam diretamente os nossos objetivos centrais.
 
-| Categoria | Critério no Contexto do Pontua | Justificativa |
-|-----------|--------------------------------|---------------|
-| **Must Have (Essenciais)** | **Adequação Funcional – Completude Funcional**: cobertura integral das funções essenciais do PBL (criação e acompanhamento de problemas, avaliações entre pares, feedback docente). | Sem estas funções, o software não cumpre seu propósito educacional e inviabiliza o uso em cursos de Medicina. |
-| | **Portabilidade – Substituibilidade**: capacidade de substituir planilhas ou ferramentas informais já utilizadas. | Garante a viabilidade de adoção institucional sem grandes barreiras de transição. |
-| **Should Have (Importantes, mas não críticos)** | Compatibilidade multiplataforma (navegadores e dispositivos móveis). | Aumenta a acessibilidade e adere à realidade dos usuários, mas não inviabiliza o uso inicial. |
-| | Exportação de relatórios acadêmicos em formatos padrão (PDF, planilhas). | Facilita integração com processos administrativos e tomadas de decisão. |
-| **Could Have (Desejáveis)** | Dashboards comparativos para coordenadores (visão entre turmas). | Melhora a análise pedagógica e institucional, mas pode ser evoluído em versões futuras. |
-| | Personalização da experiência do usuário (ex.: interface customizável). | Agrega valor e usabilidade, mas não é indispensável no MVP. |
-| **Won’t Have (Excluídos no momento)** | Internacionalização (tradução para outros idiomas). | Não é prioridade no estágio inicial de implantação na UniRV. |
-| | Suporte a alta escalabilidade (uso massivo em múltiplas universidades simultaneamente). | Pode ser tratado em versões posteriores, após validação pedagógica e institucional. |
+| Categoria                                       | Critério no Contexto do Pontua                                                                                                                                                      | Justificativa                                                                                                 |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Must Have (Essenciais)**                      | **Adequação Funcional – Completude Funcional**: cobertura integral das funções essenciais do PBL (criação e acompanhamento de problemas, avaliações entre pares, feedback docente). | Sem estas funções, o software não cumpre seu propósito educacional e inviabiliza o uso em cursos de Medicina. |
+|                                                 | **Portabilidade – Substituibilidade**: capacidade de substituir planilhas ou ferramentas informais já utilizadas.                                                                   | Garante a viabilidade de adoção institucional sem grandes barreiras de transição.                             |
+| **Should Have (Importantes, mas não críticos)** | Compatibilidade multiplataforma (navegadores e dispositivos móveis).                                                                                                                | Aumenta a acessibilidade e adere à realidade dos usuários, mas não inviabiliza o uso inicial.                 |
+|                                                 | Exportação de relatórios acadêmicos em formatos padrão (PDF, planilhas).                                                                                                            | Facilita integração com processos administrativos e tomadas de decisão.                                       |
+| **Could Have (Desejáveis)**                     | Dashboards comparativos para coordenadores (visão entre turmas).                                                                                                                    | Melhora a análise pedagógica e institucional, mas pode ser evoluído em versões futuras.                       |
+|                                                 | Personalização da experiência do usuário (ex.: interface customizável).                                                                                                             | Agrega valor e usabilidade, mas não é indispensável no MVP.                                                   |
+| **Won’t Have (Excluídos no momento)**           | Internacionalização (tradução para outros idiomas).                                                                                                                                 | Não é prioridade no estágio inicial de implantação na UniRV.                                                  |
+|                                                 | Suporte a alta escalabilidade (uso massivo em múltiplas universidades simultaneamente).                                                                                             | Pode ser tratado em versões posteriores, após validação pedagógica e institucional.                           |
   
 ---
 ## 3.3. Escopo, Profundidade e Objetos da Avaliação
@@ -231,7 +238,7 @@ O Pontua se conecta com diferentes **Objetivos de Desenvolvimento Sustentável (
 
 ## Histórico de Versão
 
-| Versão | Data       | Descrição                                                                    | Autor(s)                                                                                              |
-| ------ | ---------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `1.0`  | 28/09/2025 | Criação do artefato e adição da estrutura e conteúdos | Otávio e Vitor  |
-| `1.1`  | 29/09/2025 | Reestruturação completa do documento                                                    | Letícia |
+| Versão | Data       | Descrição                                             | Autor(s)       |
+| ------ | ---------- | ----------------------------------------------------- | -------------- |
+| `1.0`  | 28/09/2025 | Criação do artefato e adição da estrutura e conteúdos | Otávio e Vitor |
+| `1.1`  | 29/09/2025 | Reestruturação completa do documento                  | Letícia        |

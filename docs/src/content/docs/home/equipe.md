@@ -25,7 +25,7 @@ description: Equipe responsável pela análise de qualidade do software Pontua.
 
   <!-- Gabriel Fenelon Rocha Gonçalves -->
   <div style="text-align: center; background: transparent; padding: 20px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; gap: 15px;">
-    <img src="/images/team/f1-2.jpg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
+    <img src="/2025-2_T01_MARY-JACKSON/images/team/f1-2.jpg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
     <div>
       <h3>Gabriel Fenelon Rocha Gonçalves</h3>
       <h7>211061743</h7>
@@ -43,7 +43,7 @@ description: Equipe responsável pela análise de qualidade do software Pontua.
 
   <!-- Letícia Assunção Aires Moreira -->
   <div style="text-align: center; background: transparent; padding: 20px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; gap: 15px;">
-    <img src="/images/team/leticia.jpeg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
+    <img src="/2025-2_T01_MARY-JACKSON/images/team/leticia.jpeg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
     <div>
       <h3>Letícia Assunção Aires Moreira</h3>
       <h7>190128712</h7>
@@ -52,7 +52,7 @@ description: Equipe responsável pela análise de qualidade do software Pontua.
 
   <!-- Otávio Oliveira de Maya Viana -->
   <div style="text-align: center; background: transparent; padding: 20px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; gap: 15px;">
-    <img src="/images/team/82895172-2.jpeg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
+    <img src="/2025-2_T01_MARY-JACKSON/images/team/82895172-2.jpeg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
     <div>
       <h3>Otávio Oliveira de Maya Viana</h3>
       <h7>211029503</h7>
@@ -61,7 +61,7 @@ description: Equipe responsável pela análise de qualidade do software Pontua.
 
   <!-- Vítor Marconi Trancoso Albuquerque -->
   <div style="text-align: center; background: transparent; padding: 20px; border-radius: 10px; display: flex; flex-direction: column; align-items: center; gap: 15px;">
-    <img src="/images/team/Logo_eu_3.jpg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
+    <img src="/2025-2_T01_MARY-JACKSON/images/team/Logo_eu_3.jpg" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #4e9375;">
     <div>
       <h3>Vítor Marconi Trancoso Albuquerque</h3>
       <h7>222006202</h7>

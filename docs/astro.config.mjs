@@ -7,7 +7,6 @@ import starlightThemeRapidePlugin from "starlight-theme-rapide";
 // https://astro.build/config
 export default defineConfig({
 	site: "https://fcte-qualidade-de-software-1.github.io",
-	base: "/2025-2_T01_MARY-JACKSON/",
 	integrations: [
 		starlight({
 			plugins: [starlightThemeRapidePlugin()],

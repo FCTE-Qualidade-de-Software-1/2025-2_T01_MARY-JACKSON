@@ -5,7 +5,6 @@ description: Estabelece os requisitos da avaliação
 ---
 
 
-<div style="text-align: center; margin-bottom: 2rem;"> <img src="/docs/public/images/V3_C3.png" alt="Logo do Software Pontua" style="width: 80px; height: auto; display: inline-block;" /> </div>
 
 # Análise de Qualidade do Software Pontua
 ## 1. Propósito da Avaliação 

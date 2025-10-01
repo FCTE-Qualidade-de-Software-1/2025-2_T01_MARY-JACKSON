@@ -3,11 +3,6 @@ title: Sobre o Projeto QSW - Mary Jackson
 description: Projeto de análise de qualidade do software Pontua, implementando Metodologia PBL para educação médica.
 ---
 
-<div style="text-align: center; margin-bottom: 2rem;">
-  <img src="/docs/public/images/V3_C3.png" 
-       alt="Logo do Software Pontua" 
-       style="width: 80px; height: auto; display: inline-block;" />
-</div>
 
 
 
@@ -21,7 +16,7 @@ Avaliar a qualidade do software Pontua com base nas características de Adequaç
 
 ## Documentação
 
-A documentação completa do projeto está disponível no [repositório da disciplina](https://github.com/FCTE-Qualidade-de-Software-1/2025-2_T01_MARY-JACKSON/tree/main)
+A documentação completa do projeto está disponível no [repositório da disciplina](https://github.com/fcte-qualidade-de-software-1/2025-2_T01_MARY-JACKSON/tree/main)
 
 ## Metodologia
 

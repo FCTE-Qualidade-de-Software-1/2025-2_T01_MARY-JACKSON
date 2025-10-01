@@ -112,73 +112,67 @@ O Pontua é um **software como serviço (SaaS)**, acessível via navegador e res
 
 ### 2.4 Módulos e Componentes a Avaliar
 
-**INCLUIR OS MÓDULOS ABAIXO A ESSE PADRÃO:!**
+De acordo com o **mapa de navegação do Pontua**, os módulos e componentes a serem avaliados foram organizados seguindo o padrão estruturado abaixo:
 
-1. Nome do módulo: Descrição do módulo
-   Justificativa de portabilidade
-   Justificativa de adaptação funcional
-   * tópicos
-     
-2. Nome do módulo: Descrição do módulo
-   Justificativa de portabilidade
-   Justificativa de adaptação funcional
-   * tópicos 
+1. **Módulo de Autenticação e Login**: Gerencia o acesso e identificação dos usuários no sistema
+   - **Justificativa de portabilidade**: Utiliza padrões web amplamente compatíveis (OAuth via Google) permitindo integração fácil com diferentes provedores de identidade e execução em qualquer navegador moderno
+   - **Justificativa de adequação funcional**: Essencial para segurança e personalização da experiência PBL, permitindo rastreabilidade das atividades de cada usuário
+   - **Funcionalidades**:
+     - Criação de conta (Aluno e Professor)
+     - Tratamento de erros de login
+     - Recuperação de senha
 
-De acordo com o **mapa de navegação do Pontua**, as áreas e fluxos de uso analisados serão:  
+2. **Módulo de Turmas e Problemas (Aluno)**: Gerencia o acesso e acompanhamento de turmas e problemas pelo estudante
+   - **Justificativa de portabilidade**: Design responsivo permite acesso via diferentes dispositivos móveis e navegadores durante o processo de aprendizagem
+   - **Justificativa de adequação funcional**: Central para o aluno acompanhar seu progresso no método PBL, visualizando problemas propostos e seu desempenho avaliativo
+   - **Funcionalidades**:
+     - Acesso às turmas cadastradas
+     - Acompanhamento dos problemas propostos
+     - Visualização das notas em cada problema
+     - Visualização de notas em atividades de mapa mental
 
-#### 🔹 Aluno
-- **Login e Autenticação**  
-  - Criação de conta  
-  - Tratamento de erros de login  
+3. **Módulo de Avaliação (Aluno)**: Permite ao estudante realizar avaliações e visualizar resultados
+   - **Justificativa de portabilidade**: Interface intuitiva que funciona em diferentes plataformas, essencial para participação remota em atividades PBL
+   - **Justificativa de adequação funcional**: Fundamental para o método PBL, permitindo avaliação entre pares e autoavaliação com critérios transparentes
+   - **Funcionalidades**:
+     - Sistema de avaliação em atividades e problemas PBL
+     - Visualização de notas recebidas e feedbacks
+     - Consulta aos critérios de avaliação
 
-- **Gestão de Perfil**  
-  - Visualização e edição de dados pessoais  
+4. **Módulo de Gestão de Turmas (Professor)**: Ferramentas para criação e administração de turmas
+   - **Justificativa de portabilidade**: Interface web-based que permite gestão remota sem instalação de software específico
+   - **Justificativa de adequação funcional**: Essencial para organização das turmas no método PBL, permitindo controle total sobre composição e participantes
+   - **Funcionalidades**:
+     - Abertura de novas turmas
+     - Administração de turmas existentes
+     - Adição e remoção de alunos
 
-- **Turmas e Problemas**  
-  - Acesso às turmas cadastradas  
-  - Acompanhamento dos problemas propostos  
-  - **Visualização das notas em cada problema**  
-  - **Visualização de notas em atividades de mapa mental**  
+5. **Módulo de Gestão de Problemas (Professor)**: Gerencia a criação e configuração de problemas PBL
+   - **Justificativa de portabilidade**: Funciona em diferentes ambientes web sem dependências de plataformas específicas
+   - **Justificativa de adequação funcional**: Core do método PBL, permitindo controle completo do ciclo de vida dos problemas e critérios avaliativos
+   - **Funcionalidades**:
+     - Abertura de novos problemas
+     - Administração de problemas existentes
+     - Controle de datas de abertura e fechamento
+     - Definição e ajuste de critérios de avaliação
 
-- **Avaliação**  
-  - Dar notas em atividades e problemas PBL  
-  - Visualizar notas recebidas e feedbacks  
-  - **Visualização dos critérios de avaliação** (o que avaliar nos colegas e em si mesmo, assegurando clareza no processo avaliativo)  
+6. **Módulo de Avaliação (Professor)**: Sistema para atribuição e acompanhamento de notas
+   - **Justificativa de portabilidade**: Compatível com diferentes navegadores e dispositivos para correção remota
+   - **Justificativa de adequação funcional**: Essencial para feedback no método PBL, permitindo avaliação detalhada e transparente das atividades
+   - **Funcionalidades**:
+     - Atribuição de notas em atividades
+     - Visualização de notas aplicadas
+     - Relatórios detalhados de avaliação (quem avaliou quem, notas atribuídas)
+     - Rastreabilidade completa do processo avaliativo
 
----
-
-#### 🔹 Professor
-- **Login e Autenticação**  
-  - Criação de conta  
-  - Tratamento de erros de login  
-
-- **Gestão de Turmas**  
-  - Abrir novas turmas  
-  - Gerir turmas existentes  
-  - **Adição de alunos** às turmas  
-  - **Remoção de alunos** das turmas  
-
-- **Gestão de Problemas**  
-  - Abrir problemas  
-  - Gerir problemas existentes  
-  - **Editar datas de abertura e fechamento dos problemas**  
-  - Definir e ajustar critérios de avaliação  
-
-- **Avaliação**  
-  - Atribuição de notas em atividades  
-  - Visualização das notas aplicadas  
-  - **Visualização de relatórios de avaliação detalhados**, incluindo:  
-    - Quem avaliou quem  
-    - Qual nota foi atribuída  
-    - Transparência e rastreabilidade do processo avaliativo  
-
-- **Relatórios e Desempenho**  
-  - Relatórios de desempenho das turmas  
-  - Exportação de relatórios administrativos em diferentes formatos (ex.: planilhas, PDFs)  
-  - Relatórios de comparação entre alunos e turmas  
-
-- **Gestão de Perfil**  
-  - Visualização e edição de dados pessoais  
+7. **Módulo de Relatórios e Desempenho**: Gera relatórios acadêmicos e análises de performance
+   - **Justificativa de portabilidade**: Geração de relatórios em formatos padrão (PDF, planilhas) compatíveis com diferentes sistemas
+   - **Justificativa de adequação funcional**: Importante para tomada de decisões pedagógicas no método PBL, permitindo análise comparativa de desempenho
+   - **Funcionalidades**:
+     - Relatórios de desempenho das turmas
+     - Exportação em diferentes formatos (PDF, planilhas)
+     - Análise comparativa entre alunos e turmas
+     - Dashboards administrativos  
 
 ---
 

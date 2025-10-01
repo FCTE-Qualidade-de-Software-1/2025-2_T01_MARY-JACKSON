@@ -25,11 +25,11 @@ export default defineConfig({
 					items: [
 						{
 							label: "Sobre o Projeto",
-							slug: "home/sobre",
+							slug: "/2025-2_T01_MARY-JACKSON/home/sobre",
 						},
 						{
 							label: "Equipe",
-							slug: "home/equipe",
+							slug: "/2025-2_T01_MARY-JACKSON/home/equipe",
 						},
 					],
 				},
@@ -38,7 +38,7 @@ export default defineConfig({
 					items: [
 						{
 							label: "Fase 1 - Estabelecimento dos Requisitos",
-							slug: "fases/fase-1",
+							slug: "/2025-2_T01_MARY-JACKSON/fases/fase-1",
 						},
 					],
 				},

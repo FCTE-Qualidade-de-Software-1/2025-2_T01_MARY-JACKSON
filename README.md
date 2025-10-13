@@ -35,4 +35,4 @@ Acesse a versão publicada da documentação em:
 - Guilherme Gusmão Nepomuceno - 232021516  
 - Letícia Assunção Aires Moreira - 190128712  
 - Otávio Oliveira de Maya Viana - 211029503  
-- Vítor Marconi Trancoso Albuquerque - 222006202  
+- Vitor Marconi Trancoso Albuquerque - 222006202  

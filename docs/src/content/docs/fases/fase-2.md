@@ -8,7 +8,8 @@ description: Especificar a avaliação
 
 ## Sobre a Metodologia
 
-O modelo GQM (Goal-Question-Metric) é uma metodologia estruturada para definir, analisar e aplicar métricas em projetos de software. Seu principal propósito é assegurar que todas as medições realizadas estejam diretamente relacionadas aos objetivos do projeto, garantindo clareza, foco e rastreabilidade na avaliação da qualidade.
+O modelo GQM (Goal-Question-Metric) é uma metodologia estruturada para definir, analisar e aplicar métricas em projetos de software, garantindo que todas as medições realizadas estejam diretamente relacionadas aos objetivos do projeto.
+Essa abordagem promove clareza, foco e rastreabilidade na avaliação da qualidade, permitindo uma análise orientada por metas.
 
 A estrutura do modelo é dividida em três níveis interligados:
 
@@ -18,7 +19,7 @@ A estrutura do modelo é dividida em três níveis interligados:
 
 * Metric (Métrica): define as informações quantitativas ou qualitativas que serão coletadas para responder de forma objetiva às questões formuladas.
 
-No contexto do Pontua, o modelo GQM foi aplicado para estruturar a avaliação da qualidade do software, garantindo que cada métrica estivesse alinhada com os objetivos definidos pela equipe. Essa abordagem permitiu analisar de maneira sistemática aspectos como adequação funcional e portabilidade, fornecendo uma base sólida para identificar pontos fortes e oportunidades de melhoria no sistema.
+No contexto do Pontua, o modelo GQM foi aplicado para estruturar a avaliação da qualidade do software, garantindo que cada métrica estivesse alinhada com os objetivos definidos pela equipe. Essa abordagem permitiu analisar de maneira sistemática aspectos como adequação funcional e portabilidade, fornecendo uma base sólida para identificar pontos fortes e oportunidades de melhoria no sistema. Essa aplicação possibilitou identificar de forma mensurável a adequação funcional e a portabilidade do sistema, evidenciando o quanto o Pontua atende aos requisitos definidos e o quão facilmente pode ser implantado em diferentes ambientes institucionais.
 
 <p align="center">
 

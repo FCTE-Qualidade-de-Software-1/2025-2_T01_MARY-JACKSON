@@ -76,6 +76,7 @@ No contexto do Pontua, o modelo GQM foi aplicado para estruturar a avaliação d
 **Hipótese Q1:** O Pontua apresenta funcionamento adequado (sem falhas críticas) em pelo menos 95% das combinações testadas. Haindl (2021, pp. 96–97)
 
 **Q2:** O aplicativo é facilmente instalável e configurável em novos dispositivos ou ambientes institucionais?
+
 **Métrica 1:** Percentual de instalações concluídas sem intervenção técnica adicional.  
 **Métrica 2:** Percentual de usuários que consideram o processo de instalação fácil (escala de 1 a 5).  
 **Hipótese Q2:** Pelo menos 95% das instalações são concluídas sem intervenção técnica e a média de facilidade percebida é superior a 4,0.
@@ -88,12 +89,12 @@ No contexto do Pontua, o modelo GQM foi aplicado para estruturar a avaliação d
 
 | **Objetivo de Medição** | **Questão** | **Métrica** |
 |--------------------------|-------------|--------------|
-| **Adequação Funcional** | **Q1:** O Pontua apresenta completude funcional, ou seja, todas as funcionalidades essenciais previstas estão disponíveis e implementadas? | Pelo menos 90% das funcionalidades essenciais estão disponíveis e implementadas conforme especificado. Haindl (2021, pp. 99–100) |
-| **Adequação Funcional** | **Q2:** As funcionalidades do Pontua apresentam adequação funcional, ajudando o usuário a alcançar seus objetivos no processo avaliativo do PBL? | A média de satisfação dos usuários é superior a 4,0. Haindl (2021, pp. 87-88) |
-| **Adequação Funcional** | **Q3:** As funções do Pontua fornecem resultados corretos conforme os requisitos definidos (corretude funcional)? | Pelo menos 95% das funções produzem resultados corretos e não há mais que 1 defeito de incorreção funcional por ciclo de avaliação. |
-| **Portabilidade** | **Q1:** O aplicativo Pontua funciona corretamente em diferentes sistemas operacionais e navegadores? | O Pontua apresenta funcionamento adequado (sem falhas críticas) em pelo menos 95% das combinações testadas. Haindl (2021, pp. 96–97) |
-| **Portabilidade** | **Q2:** O aplicativo é facilmente instalável e configurável em novos dispositivos ou ambientes institucionais? | Pelo menos 95% das instalações são concluídas sem intervenção técnica e a média de facilidade percebida é superior a 4,0. |
-| **Portabilidade** | **Q3:** O aplicativo Pontua pode ser adaptado ou substituído facilmente para diferentes ambientes institucionais (adaptabilidade/substituibilidade)? | O Pontua pode ser adaptado ou substituído em pelo menos 90% dos ambientes institucionais sem grandes modificações. |
+| **Adequação Funcional** | **Q1:** O Pontua apresenta completude funcional, ou seja, todas as funcionalidades essenciais previstas estão disponíveis e implementadas? | Percentual de funcionalidades essenciais disponíveis; Percentual de funcionalidades essenciais implementadas |
+| **Adequação Funcional** | **Q2:** As funcionalidades do Pontua apresentam adequação funcional, ajudando o usuário a alcançar seus objetivos no processo avaliativo do PBL? | Grau médio de satisfação dos usuários quanto à adequação funcional das funcionalidades (escala de 1 a 5) |
+| **Adequação Funcional** | **Q3:** As funções do Pontua fornecem resultados corretos conforme os requisitos definidos (corretude funcional)? | Percentual de funções que produzem resultados corretos; Número de defeitos de incorreção funcional |
+| **Portabilidade** | **Q1:** O aplicativo Pontua funciona corretamente em diferentes sistemas operacionais e navegadores? | Percentual de combinações de sistema operacional e navegador nas quais o sistema opera sem erros críticos. |
+| **Portabilidade** | **Q2:** O aplicativo é facilmente instalável e configurável em novos dispositivos ou ambientes institucionais? | Percentual de instalações concluídas sem intervenção técnica; Percentual de usuários que consideram o processo de instalação fácil (escala de 1 a 5) |
+| **Portabilidade** | **Q3:** O aplicativo Pontua pode ser adaptado ou substituído facilmente para diferentes ambientes institucionais (adaptabilidade/substituibilidade)? | Percentual de ambientes nos quais o sistema pode ser adaptado ou substituído sem grandes modificações. |
 
 
 ## Bibliografia

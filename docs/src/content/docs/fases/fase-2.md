@@ -108,3 +108,4 @@ Haindl, Philipp. Measuring and Evaluating the Value of Software Features in DevO
 | Versão | Data       | Descrição                                             | Autor(s)       |
 | ------ | ---------- | ----------------------------------------------------- | -------------- |
 | `1.0`  | 06/10/2025 | Criação do documento, adição da introdução, objetivos de medição e questões de medição | Letícia |
+| `1.1`  | 14/10/2025 | Atualização da tabela de métricas com valores específicos e referências bibliográficas | Vitor Marconi |

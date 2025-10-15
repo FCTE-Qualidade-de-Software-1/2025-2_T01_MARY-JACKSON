@@ -43,19 +43,28 @@ No contexto do Pontua, o modelo GQM foi aplicado para estruturar a avaliação d
 
 ### Questões Objetivo de Medição 1 - Adequação Funcional
 
+**Q1:** O Pontua apresenta completude funcional, ou seja, todas as funcionalidades essenciais previstas estão disponíveis e implementadas?
 
-**Q1:** O Pontua apresenta completude funcional, ou seja, todas as funcionalidades essenciais previstas estão disponíveis e implementadas?  
 **Métrica 1:** Percentual de funcionalidades essenciais disponíveis em relação ao total definido nos requisitos.  
-**Métrica 2:** Percentual de funcionalidades essenciais implementadas em relação ao total definido nos requisitos.  
+**Métrica 2:** Percentual de funcionalidades essenciais implementadas em relação ao total definido nos requisitos.
+
 **Hipótese Q1:** Pelo menos 90% das funcionalidades essenciais estão disponíveis e implementadas conforme especificado. Haindl (2021, pp. 99–100)
 
-**Q2:** As funcionalidades do Pontua apresentam adequação funcional, ajudando o usuário (professor ou estudante) a alcançar seus objetivos no processo avaliativo do PBL?  
-**Métrica:** Grau médio de satisfação dos usuários quanto à adequação funcional das funcionalidades (escala de 1 a 5).  
+---
+
+**Q2:** As funcionalidades do Pontua apresentam adequação funcional, ajudando o usuário (professor ou estudante) a alcançar seus objetivos no processo avaliativo do PBL?
+
+**Métrica:** Grau médio de satisfação dos usuários quanto à adequação funcional das funcionalidades (escala de 1 a 5).
+
 **Hipótese Q2:** A média de satisfação dos usuários é superior a 4,0. Haindl (2021, pp. 87-88)
 
-**Q3:** As funções do Pontua fornecem resultados corretos conforme os requisitos definidos (corretude funcional)?  
+---
+
+**Q3:** As funções do Pontua fornecem resultados corretos conforme os requisitos definidos (corretude funcional)?
+
 **Métrica 1:** Percentual de funções que produzem resultados corretos em testes de validação contra requisitos.  
-**Métrica 2:** Número de defeitos relacionados à incorreção funcional identificados durante a avaliação.  
+**Métrica 2:** Número de defeitos relacionados à incorreção funcional identificados durante a avaliação.
+
 **Hipótese Q3:** Pelo menos 95% das funções produzem resultados corretos e não há mais que 1 defeito de incorreção funcional por ciclo de avaliação. 
 
 ## Objetivo de Medição 2 – Portabilidade
@@ -70,19 +79,27 @@ No contexto do Pontua, o modelo GQM foi aplicado para estruturar a avaliação d
 
 ### Questões do Objetivo de Medição 2 – Portabilidade
 
-
 **Q1:** O aplicativo Pontua funciona corretamente em diferentes sistemas operacionais e navegadores?
-**Métrica:** Percentual de combinações de sistema operacional e navegador nas quais o sistema opera sem erros críticos.  
+
+**Métrica:** Percentual de combinações de sistema operacional e navegador nas quais o sistema opera sem erros críticos.
+
 **Hipótese Q1:** O Pontua apresenta funcionamento adequado (sem falhas críticas) em pelo menos 95% das combinações testadas. Haindl (2021, pp. 96–97)
+
+---
 
 **Q2:** O aplicativo é facilmente instalável e configurável em novos dispositivos ou ambientes institucionais?
 
 **Métrica 1:** Percentual de instalações concluídas sem intervenção técnica adicional.  
-**Métrica 2:** Percentual de usuários que consideram o processo de instalação fácil (escala de 1 a 5).  
+**Métrica 2:** Percentual de usuários que consideram o processo de instalação fácil (escala de 1 a 5).
+
 **Hipótese Q2:** Pelo menos 95% das instalações são concluídas sem intervenção técnica e a média de facilidade percebida é superior a 4,0.
 
+---
+
 **Q3:** O aplicativo Pontua pode ser adaptado ou substituído facilmente para diferentes ambientes institucionais (adaptabilidade/substituibilidade)?
-**Métrica:** Percentual de ambientes nos quais o sistema pode ser adaptado ou substituído sem necessidade de grandes modificações.  
+
+**Métrica:** Percentual de ambientes nos quais o sistema pode ser adaptado ou substituído sem necessidade de grandes modificações.
+
 **Hipótese Q3:** O Pontua pode ser adaptado ou substituído em pelo menos 90% dos ambientes institucionais sem grandes modificações.
 
 ## Relação entre Objetivos de Medição, Questões e Métricas

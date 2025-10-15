@@ -40,6 +40,10 @@ export default defineConfig({
 							label: "Fase 1 - Estabelecimento dos Requisitos",
 							slug: "fases/fase-1",
 						},
+						{
+							label: "Fase 2 - Especificar a avaliação",
+							slug: "fases/fase-2",
+						},
 					],
 				},
 			],

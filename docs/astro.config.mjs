@@ -48,6 +48,10 @@ export default defineConfig({
 							label: "Fase 3 - Projeto da avaliação",
 							slug: "fases/fase-3",
 						},
+						{
+							label: "Fase 4 - Execução da avaliação",
+							slug: "fases/fase-4",
+						},
 					],
 				},
 			],

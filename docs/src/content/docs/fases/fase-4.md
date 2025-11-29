@@ -1,4 +1,9 @@
-# Etapa 4 — Execução da Avaliação da Qualidade do Software
+---
+title: Fase 4
+description: Execução da Avaliação da Qualidade do Software
+---
+
+# Execução da Avaliação da Qualidade do Software
 
 Esta etapa apresenta os resultados da execução da avaliação da solução, conforme os objetivos, questões e métricas definidos na Etapa 3.  
 Diferente de uma simulação, **os testes foram realizados com usuários reais**, incluindo estudantes e professores que utilizaram o software em cenários reais de uso.
@@ -22,8 +27,8 @@ Avaliar se as principais funcionalidades operam corretamente e entregam resultad
 
 Cada fluxo foi executado utilizando **casos de teste previamente definidos**, e **todos foram aplicados com usuários reais**, em sessões presenciais e remotas. Participaram:
 
-- 10 estudantes  
-- 10 professores  
+- 13 estudantes  
+- 4 professores  
 
 Os cenários testados refletiram atividades reais realizadas no software:  
 - autenticação  

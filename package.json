@@ -1,0 +1,14 @@
+{
+  "name": "qsw-mary-jackson-pdf-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Gerador de PDF consolidado das fases do projeto QSW - Mary Jackson",
+  "scripts": {
+    "generate-pdf": "node generate-pdf.js",
+    "pdf": "node generate-pdf.js"
+  },
+  "devDependencies": {
+    "md-to-pdf": "^5.2.4",
+    "puppeteer": "^23.7.1"
+  }
+}

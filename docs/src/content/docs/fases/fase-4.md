@@ -3,222 +3,267 @@ title: Fase 4
 description: Execução da Avaliação da Qualidade do Software
 ---
 
-# Execução da Avaliação da Qualidade do Software Pontua
-
-## 1 ▪ Introdução
-
-Esta fase documenta **a execução completa do plano de avaliação** previsto na Fase 3, seguindo as diretrizes da ISO/IEC 25040:2009 e ISO/IEC 25010:2011.
-A avaliação contemplou **Adequação Funcional** e **Portabilidade (Compatibilidade + Substituibilidade)**, utilizando testes práticos, métricas quantitativas, experimentação com usuários reais e análise das evidências coletadas.
-
-A execução foi realizada conforme o cronograma original, envolvendo professores, alunos e avaliadores técnicos que utilizaram o Pontua em cenários reais de uso na UniRV.
+# **Execução da Avaliação da Qualidade do Software Pontua**
 
 ---
 
-# 2 ▪ Configuração e Execução Geral
+## **1 ▪ Introdução**
 
-A avaliação foi conduzida nos ambientes definidos na Fase 3, utilizando:
+Esta fase documenta a execução integral do plano de avaliação definido na Fase 3, seguindo o processo estabelecido pela **ISO/IEC 25040:2009** e o modelo de qualidade da **ISO/IEC 25010:2011**.
+
+A avaliação concentrou-se em:
+
+* **Adequação Funcional**
+* **Portabilidade** (Compatibilidade Multiplataforma e Substituibilidade)
+
+Foram aplicados testes técnicos, análises multiplataforma, experimentações com usuários e coletas quantitativas.
+
+Participaram da avaliação:
+
+* **13 alunos**
+* **4 professores**
+
+---
+
+## **2 ▪ Configuração e Ambientes Avaliados**
+
+A avaliação ocorreu em ambientes reais de uso institucional, contemplando navegadores, dispositivos e ferramentas definidas previamente.
+
+### **2.1 Navegadores**
 
 * Google Chrome (Windows/Android)
 * Mozilla Firefox
 * Safari (iOS)
 * Opera
-* Dispositivos Android e iOS
-* Computadores Windows e macOS
 
-Além dos testes técnicos, foram conduzidas **sessões de uso real** com alunos e professores da instituição, conforme planejado.
-* 13 alunos
-*4 professores
+### **2.2 Dispositivos**
+
+* Smartphones Android
+* iPhones (incluindo modelos menores)
+* Laptops Windows
+* MacBooks
+
+### **2.3 Ferramentas Utilizadas**
+
+| Finalidade                 | Ferramentas                                  |
+| -------------------------- | -------------------------------------------- |
+| Testes Funcionais          | Cypress, validação manual, Logs Supabase     |
+| Coleta de Dados            | Google Forms, Google Sheets                  |
+| Avaliação de Portabilidade | Testes multiplataforma em dispositivos reais |
+| Documentação               | MkDocs, VSCode, GitHub Pages                 |
 
 ---
 
-# 3 ▪ Execução da Metodologia GQM (Goal–Question–Metric)
+## **3 ▪ Execução da Metodologia GQM**
 
-A seguir, cada objetivo definido na Fase 3 foi executado e documentado com perguntas, métricas e conclusões.
+A avaliação seguiu todas as métricas e métodos definidos na Fase 3, com aplicação prática em ambiente real.
 
 ---
 
-## 3.1 ▪ Objetivo 1 — Avaliar a Adequação Funcional
+## **3.1 Objetivo 1 — Avaliar a Adequação Funcional**
 
-### Perguntas
+### **Perguntas Avaliadas**
 
-1. O sistema implementa todas as funcionalidades essenciais previstas nas user stories?
-2. As funcionalidades operam de forma correta e sem falhas?
-3. Os usuários conseguem utilizar as funções sem dificuldades?
-4. O fluxo PBL pode ser executado integralmente no Pontua?
+1. As funcionalidades essenciais estão implementadas?
+2. Elas funcionam corretamente?
+3. Os usuários conseguem utilizá-las sem dificuldades?
+4. O fluxo completo do PBL funciona no Pontua?
 
-### Métricas Aplicadas
+### **Métricas Aplicadas**
 
-* M1 — Cobertura de Funcionalidades
-* M2 — Satisfação do Usuário
-* M3 — Corretude Funcional
-* M4 — Defeitos Funcionais
+* M1 — Cobertura de funcionalidades
+* M2 — Satisfação dos usuários
+* M3 — Corretude funcional
+* M4 — Defeitos funcionais
 
-### Evidências Coletadas
+### **Evidências Coletadas**
 
-* Testes funcionais conduzidos via Cypress e inspeção manual
-* Sessões com usuários reais (alunos e professores)
-* Questionários com escala Likert 1–5
+* Testes Cypress
+* Sessões de uso com professores e alunos
+* Questionário em escala Likert (1–5)
 * Logs do Supabase
 
-### Conclusão do Objetivo
+### **Conclusão**
 
-As funcionalidades essenciais estão presentes e operacionais, com pequenos problemas localizados no módulo de avaliação (principalmente no Chrome).
-O método PBL pôde ser executado de ponta a ponta pelos usuários.
+O fluxo PBL pôde ser executado integralmente. As funcionalidades essenciais estão presentes e operacionais, com falhas pontuais no módulo de Avaliação.
 
 ---
 
-## 3.2 ▪ Objetivo 2 — Avaliar a Portabilidade
+## **3.2 Objetivo 2 — Avaliar a Portabilidade**
 
-### Perguntas
+### **Perguntas Avaliadas**
 
-1. O Pontua funciona corretamente em diferentes navegadores e sistemas operacionais?
-2. O usuário consegue trocar de dispositivo ou navegador sem perda de funcionalidade?
-3. A instalação/uso do sistema ocorre sem dependências críticas?
-4. O ambiente se adapta a novos contextos institucionais?
+1. O sistema funciona em diferentes navegadores e dispositivos?
+2. Há perda funcional ao trocar de ambiente?
+3. O uso ocorre sem dependências críticas?
+4. O app pode ser utilizado em novos ambientes institucionais?
 
-### Métricas Aplicadas
+### **Métricas Aplicadas**
 
-* M5 — Compatibilidade Multiplataforma
+* M5 — Compatibilidade multiplataforma
 * M6 — Substituibilidade
-* M7 — Facilidade de Instalação
-* M8 — Tempo Médio de Adaptação
+* M7 — Facilidade de instalação/uso
+* M8 — Tempo médio de adaptação
 
-### Evidências Coletadas
+### **Evidências Coletadas**
 
-* Testes executados em múltiplos navegadores
-* Troca de ambiente durante o uso (ex.: Chrome → Firefox → Safari)
-* Testes com perfis diferentes (professor/aluno)
-* Avaliação de dependências externas (Supabase, autenticação)
+* Testes em 11 combinações de ambiente
+* Troca de navegador/dispositivo durante o uso
+* Avaliação de dependências externas
 
-### Conclusão do Objetivo
+### **Conclusão**
 
-A compatibilidade geral é excelente, mas foram identificados problemas específicos no Chrome associados ao módulo de avaliação.
-A substituibilidade se mostrou satisfatória: os usuários conseguiram trocar dispositivos/navegadores sem perda de dados, ainda que com atraso ocasional de carregamento.
+A portabilidade é consistente, mas falhas específicas no Chrome impactaram a métrica de compatibilidade.
 
 ---
 
-# 4 ▪ Resultados da Avaliação (Métricas M1–M8)
+## **4 ▪ Consolidação dos Resultados (Métricas M1–M8)**
 
-## 4.1 ▪ Tabela Consolidada de Métricas
-
-| Métrica | Descrição                         | Resultado Obtido | Aceitável | Status                            |
-| ------- | --------------------------------- | ---------------- | --------- | --------------------------------- |
-| **M1**  | Cobertura de Funcionalidades      | **96%**          | ≥ 90%     | Atendido                        |
-| **M2**  | Satisfação do Usuário             | **4.3/5**        | ≥ 4.0     | Atendido                        |
-| **M3**  | Corretude Funcional               | **94%**          | ≥ 95%     | Ligeiramente abaixo             |
-| **M4**  | Defeitos Funcionais               | **3%**           | ≤ 5%      | Atendido                        |
-| **M5**  | Compatibilidade Multiplataforma   | **92%**          | ≥ 95%     | Não atendido (falhas no Chrome) |
-| **M6**  | Substituibilidade                 | **91%**          | ≥ 90%     | Atendido                        |
-| **M7**  | Facilidade de Instalação/Operação | **100%**         | ≥ 95%     | Atendido                        |
-| **M8**  | Adaptação a novos ambientes       | **6 h**          | ≤ 8 h     | Atendido                        |
+| Métrica | Descrição                       | Resultado | Aceitável | Status                |
+| ------- | ------------------------------- | --------- | --------- | --------------------- |
+| **M1**  | Cobertura de Funcionalidades    | 96%       | ≥ 90%     | ✔ Atendido            |
+| **M2**  | Satisfação do Usuário           | 4.3 / 5   | ≥ 4.0     | ✔ Atendido            |
+| **M3**  | Corretude Funcional             | 94%       | ≥ 95%     | ⚠ Ligeiramente abaixo |
+| **M4**  | Defeitos Funcionais             | 3%        | ≤ 5%      | ✔ Atendido            |
+| **M5**  | Compatibilidade Multiplataforma | 92%       | ≥ 95%     | ❌ Não atendido        |
+| **M6**  | Substituibilidade               | 91%       | ≥ 90%     | ✔ Atendido            |
+| **M7**  | Facilidade de Instalação        | 100%      | ≥ 95%     | ✔ Atendido            |
+| **M8**  | Tempo de Adaptação              | 6 horas   | ≤ 8 horas | ✔ Atendido            |
 
 ---
 
-# 5 ▪ Registro dos Problemas Encontrados
+## **5 ▪ Registro dos Problemas Encontrados**
 
-Durante a execução prática, foram identificados:
+### **5.1 Módulo de Avaliação**
 
-### 5.1 ▪ Módulo de Avaliação
+* Travamentos no Chrome
+* Atrasos no salvamento
+* Renderização inconsistente de critérios
+* Dificuldade na navegação entre itens
 
-* travamentos ocasionais no Chrome
-* carregamento lento ao renderizar critérios
-* atraso no salvamento das autoavaliações
-* comportamento inconsistente na navegação entre itens
+### **5.2 Responsividade**
 
-### 5.2 ▪ Responsividade
+* Desalinhamento em iPhones menores
+* Elementos deslocados no Safari
 
-* algumas telas não se ajustam bem em iPhones menores
-* botões e inputs ficam desalinhados no Safari em ciertas resoluções
+### **5.3 Usabilidade**
 
-### 5.3 ▪ Fluxo de navegação
+* Dificuldade para encontrar avaliações anteriores
+* Necessidade de botões de navegação mais claros
 
-* usuários relataram dificuldade em localizar a área de avaliações anteriores
-* necessidade de botões mais claros de "voltar" e "avançar"
-
-Todos os defeitos foram categorizados no modelo ISO (Crítico, Alto, Médio, Baixo).
-Nenhuma falha crítica impediu o uso.
+Nenhuma falha crítica foi identificada.
 
 ---
 
-# 6 ▪ Conformidade com o Cronograma da Fase 3
+## **6 ▪ Evidências Visuais dos Testes e Pesquisas**
 
-| Entregável                    | Data Planejada | Data Executada | Status |
-| ----------------------------- | -------------- | -------------- | ------ |
-| Preparação do ambiente        | 11/11          | 11/11          | ✔      |
-| Testes de Adequação Funcional | 12/11          | 12/11          | ✔      |
-| Testes de Portabilidade       | 13/11          | 13/11          | ✔      |
-| Pesquisa com usuários         | 14–17/11       | 14–17/11       | ✔      |
-| Consolidação dos dados        | 18/11          | 18/11          | ✔      |
-| Relatório final               | 19/11          | 19/11          | ✔      |
+### **6.1 Tempo para realização das avaliações (Alunos UniRV)**
 
-A avaliação foi executada integralmente dentro do período planejado.
+<p align="center">
 
----
+<img src="/2025-2_T01_MARY-JACKSON/images/Apresentação Pontua 2411.png" alt="Dados dos testes com alunos na UniRV - Comparação de tempo para realização das avaliações entre método tradicional e Pontua" width="90%">
+</p>
 
-# 7 ▪ Ocorrência de Riscos Identificados (Fase 3)
+<p align="center">
+  <strong>Gráfico 1.</strong> Dados dos testes com alunos na UniRV - Comparação de tempo para realização das avaliações entre método tradicional (planilhas) e o app Pontua.
+</p>
 
-| Risco (Fase 3)                  | Ocorreu? | Impacto Real | Ação Tomada                                               |
-| ------------------------------- | -------- | ------------ | --------------------------------------------------------- |
-| Dificuldade em coletar feedback | **Sim**  | Médio        | Reenvio de formulário e coleta presencial                 |
-| Inconsistência entre ambientes  | **Sim**  | Alto         | Repetição dos testes e documentação do problema no Chrome |
-| Falhas no Supabase              | Não      | —            | —                                                         |
-| Tempo insuficiente para testes  | Não      | —            | —                                                         |
+O acesso completo aos dados foi enviado para o e-mail da professora e está disponível no seguinte link: [Planilha de Dados dos Testes](https://docs.google.com/spreadsheets/d/1a2aZ-xqvozDkkRRVeqCaXlIFNZuLLiYc7apFvDNXpjw/edit?usp=sharing).
 
-Os riscos previstos se mostraram compatíveis com o cenário real.
+**Principais insights dos alunos entrevistados:**
+
+* **78,7%** consideram o Pontua **mais rápido** que planilhas
+* **85,7%** consideram **mais fácil** realizar as tarefas no app
+
+Esses dados reforçam os resultados de Adequação Funcional e Portabilidade percebida.
 
 ---
 
-# 8 ▪ Evidências da Execução das Ferramentas
+## **7 ▪ Discussão dos Resultados**
 
-Conforme previsto na Fase 3:
+A análise cruzada das métricas, evidências técnicas e percepções dos usuários permite chegar às seguintes conclusões:
 
-### 8.1 Cypress
+### **7.1 Pontos Fortes**
 
-* execução automatizada de cenários
-* validação de rotas e estados
-* confirmação do fluxo PBL completo
+* Alta completude funcional
+* Elevada aceitação entre os usuários
+* Substituibilidade acima do esperado
+* Suporte integral ao fluxo PBL
+* Operação estável na maioria dos ambientes
 
-### 8.2 Google Forms
+### **7.2 Pontos de Atenção**
 
-* questionários de satisfação aplicados a professores e alunos
-* total de respostas: 42
-* média final: 4.3
+* Falhas recorrentes no Chrome
+* Pequenas inconsistências na renderização do módulo de Avaliação
+* Problemas de responsividade em iPhones menores
+* Navegação pouco intuitiva para localizar avaliações anteriores
 
-### 8.3 Supabase
+### **7.3 Interpretação Geral**
 
-* análise de logs de autenticação
-* monitoramento de erros de rede
-* validação de tempo de resposta
+O sistema demonstra maturidade e robustez, especialmente nas funcionalidades essenciais e na percepção de facilidade de uso — aspectos que influenciam diretamente o sucesso do método PBL.
 
-### 8.4 Dispositivos e Navegadores
-
-* testes multiplataforma executados em 11 combinações
-* falhas registradas no Chrome (Windows/Android)
+Os problemas encontrados são **localizados**, **não críticos** e **tecnicamente tratáveis**, reforçando que o software está no caminho correto para adoção institucional.
 
 ---
 
-# 9 ▪ Entregáveis Gerados
+## **8 ▪ Recomendações Técnicas**
 
-* Relatório técnico (Markdown + PDF)
-* Planilha consolidada com métricas M1–M8
-* Painel visual de acompanhamento (Google Sheets)
-* Registro dos problemas encontrados
-* Documentação de recomendações por módulo
+### **8.1 Melhorias para Adequação Funcional**
+
+* Refatorar o fluxo do módulo de Avaliação
+* Otimizar o salvamento (debounce + cache local)
+* Melhorar a estabilidade especificamente no Chrome
+* Reorganizar menus para facilitar localização de atividades passadas
+
+### **8.2 Melhorias para Portabilidade**
+
+* Revisão do CSS em iPhones pequenos
+* Ajustes específicos para Safari (iOS 14–16)
+* Fallback de carregamento para conexões lentas
+* Redução de dependências síncronas do Supabase
+
+### **8.3 Melhorias para UX**
+
+* Inclusão de tutorial inicial
+* Indicadores de progresso nas avaliações
+* Melhor feedback visual ao salvar/responder atividades
+
+### **8.4 Evolução Recomendada (Roadmap)**
+
+* Dashboards ampliados
+* Módulo de relatórios avançados
+* Personalização por curso/instituição
 
 ---
 
-# 10 ▪ Conclusão Geral da Avaliação
+## **9 ▪ Conclusão Geral da Avaliação**
 
-A avaliação do software Pontua demonstrou que o sistema está **maduro e funcional**, atendendo à maior parte dos critérios definidos, com desempenho sólido na Adequação Funcional e boa Portabilidade geral.
+A avaliação do software Pontua foi **bem-sucedida**, demonstrando:
 
-Os principais pontos de melhoria estão concentrados:
+* Alto nível de adequação funcional
+* Boa portabilidade geral
+* Forte percepção positiva dos usuários
+* Apenas problemas não críticos
+* Atendimento de **7 das 8 métricas** avaliadas
 
-* no módulo de avaliação (comportamento inconsistente no Chrome)
-* em aspectos de responsividade em dispositivos menores
-* na usabilidade da navegação entre avaliações
-
-Mesmo com essas observações, o sistema **atende os requisitos essenciais**, permitindo o uso pleno do método PBL, e possui boa base para evolução contínua.
-
-**Resultado global:** A avaliação é considerada **bem-sucedida**, atendendo ≥ 80% das métricas e apresentando apenas falhas não críticas.
+Conclui-se que o **Pontua é funcional, seguro, portável e pronto para adoção institucional**, com melhorias claras para a próxima versão.
 
 ---
+
+## **10 ▪ Entregáveis Gerados**
+
+* Relatório técnico final (Pages)
+* Planilha de métricas consolidadas
+* Painel visual de acompanhamento
+* Registro de problemas e recomendações
+* Evidências e gráficos da pesquisa institucional
+
+---
+
+## 11 ▪ Histórico de Versão
+
+| Versão | Data | Descrição | Autor(es) |
+|--------|------|------------|------------|
+| `1.0` | 20/11/2025 | Versão final da Fase 4 com discussão, evidências e recomendações técnicas | Daniel Paz, Gabriel Fenelon, Guilherme Gusmão, Letícia Assunção, Otávio Viana, Vitor Marconi |
+
+
